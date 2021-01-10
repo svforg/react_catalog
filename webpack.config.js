@@ -67,7 +67,10 @@ let conf = {
     }
   },
   devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 8080
   }
 };
 
