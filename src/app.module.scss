@@ -1,0 +1,37 @@
+
+.siteInner {
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+}
+
+.pageHeader {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  padding: 10px 0;
+  background: #fff;
+  border-bottom: 1px solid #dce1e6;
+}
+
+.item a {
+  display: flex;
+  border-radius: 5px;
+  list-style-type: none;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  white-space: nowrap;
+  padding: 15px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.item a:hover {
+  color: var(--iq-primary);
+}
+.item a.active {
+  color: var(--iq-primary);
+  background-color: var(--iq-dark-primary);
+}

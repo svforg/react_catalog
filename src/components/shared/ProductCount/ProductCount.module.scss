@@ -1,0 +1,37 @@
+$green: rgba(0, 106, 182, 1);
+
+.outputSpan {
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+.editInput {
+  display: inline-block;
+  width: 50px;
+  background-color: transparent;
+  text-align: center;
+  border: none;
+  color: #fff;
+
+  &:focus {
+    color: #fff;
+
+  }
+}
+
+.controlBtn {
+  display: inline-block;
+  border-radius: 50%;
+  border: none;
+  background: $green;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+
+  &:disabled {
+    opacity: 0.3;
+  }
+}
