@@ -1,5 +1,12 @@
 You can see this [react app catalog](https://svforg.github.io/react_catalog/).
 
+
+## What was used in this project
+    React + Mobx
+    React-bootstrap + Bootstrap
+    Autoprefixer + SCSS + CSS modules
+    Stylelint
+
 ## Available Scripts
 
 In the project directory, you can run:
