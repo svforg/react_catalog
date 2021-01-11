@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d2721b1-1895-4cf0-8be5-628dccea78d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/errors/error404/error404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/errors/error404/error404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/CartView/CartView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/CartView/CartView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/CartView/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/CartView/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/CatalogView/CatalogView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/CatalogView/CatalogView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/CatalogView/ItemView/ItemView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/CatalogView/ItemView/ItemView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/OrderView/OrderView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/OrderView/OrderView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/ProductView/ProductView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/ProductView/ProductView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentational/ResultView/ResultView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentational/ResultView/ResultView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/SuperInputText/SuperInputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SuperInputText/SuperInputText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Catalog/Catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Catalog/Catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Order/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Order/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Page404/Page404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Page404/Page404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Product/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Product/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Result/Result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Result/Result.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/CartModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/CartModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/ProductsModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/ProductsModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.module.scss" afterDir="false" />
-    </list>
+    <list default="true" id="8d2721b1-1895-4cf0-8be5-628dccea78d8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +99,7 @@
           <entry key="html" value="5" />
           <entry key="js" value="121" />
           <entry key="json" value="6" />
-          <entry key="md" value="9" />
+          <entry key="md" value="10" />
           <entry key="scss" value="3" />
         </counts>
       </usages-collector>
@@ -135,7 +109,7 @@
           <entry key="HTML" value="5" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="121" />
-          <entry key="Markdown" value="9" />
+          <entry key="Markdown" value="10" />
           <entry key="SCSS" value="3" />
         </counts>
       </usages-collector>
@@ -160,32 +134,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/shared/SuperInputText/SuperInputText.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -303,7 +252,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="340" />
     <option name="y" value="388" />
     <option name="width" value="1489" />
@@ -322,40 +271,6 @@
             <path>
               <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductCount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="SuperInputText" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,16 +336,15 @@
       <workItem from="1610017013900" duration="604000" />
       <workItem from="1610278986597" duration="1739000" />
       <workItem from="1610281046437" duration="4045000" />
-      <workItem from="1610338642680" duration="12422000" />
+      <workItem from="1610338642680" duration="13854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125602000" />
+    <option name="totallyTimeSpent" value="127034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="23" width="1550" height="848" extended-state="7" />
     <layout>
       <window_info id="Database" order="0" side_tool="true" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -524,16 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="46" column="7" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="6" column="16" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -833,6 +737,16 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
