@@ -2,29 +2,19 @@ import React from 'react';
 import {observer} from "mobx-react";
 import {Link} from "react-router-dom";
 
-export const ProductView = observer((
-  {
+export const ProductView = observer((props) => {
+
+  const {
     productTitle,
     productPrice,
-    routerDomLink,
     routeLink,
+  } = props;
 
-  }
-) => {
-  return (
-    <div>
-      <h1>{productTitle}</h1>
-      <hr/>
-      <div>
-        <strong>Price: {productPrice} &#36;</strong>
-      </div>
-      <hr/>
+  return <div>
+    <h1>{productTitle}</h1>
 
-      <Link
-        to={routeLink}
-        className="btn btn-primary">
-        Back to Catalog
-      </Link>
-    </div>
-  );
+    <p><strong>Price: {productPrice} &#36;</strong></p>
+
+    <Link to={routeLink} className="btn btn-primary">Back</Link>
+  </div>
 });

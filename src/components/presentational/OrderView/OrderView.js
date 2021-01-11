@@ -4,31 +4,18 @@ import {Button, Form, Modal} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import css from './Order.module.scss';
 
-export const OrderView = observer((
-  {
+export const OrderView = observer((props) => {
+
+  const {
     orderFields,
     orderUpdateValue,
     routeLinkToCart,
-    routeLinkToResult,
     orderIsFormValid,
     cartTotalPrice,
     historyPushToResult
-  }
-) => {
-  const [stateModal, setStateModal] = useState(false);
-  const showStateModal = () => {
-    setStateModal(true);
-  };
-  const closeStateModal = () => {
-    setStateModal(false);
-  };
-  const confirmStateModal = () => {
-    setStateModal(true);
-    historyPushToResult()
-  };
+  } = props;
 
   let formFields = [];
-
   for (let name in orderFields) {
     let field = orderFields[name];
 
@@ -50,49 +37,50 @@ export const OrderView = observer((
     );
   }
 
-  return (
-    <div>
-      <h1>Order</h1>
+  const [stateModal, setStateModal] = useState(false);
+  const showStateModal = () => {
+    setStateModal(true);
+  };
+  const closeStateModal = () => {
+    setStateModal(false);
+  };
+  const confirmStateModal = () => {
+    setStateModal(true);
+    historyPushToResult()
+  };
+  const modalTemplate = <Modal show={stateModal} backdrop="static">
+    <Modal.Header closeButton onHide={closeStateModal}>
+      <Modal.Title>Check yor products</Modal.Title>
+    </Modal.Header>
 
-      <hr/>
+    <Modal.Body>
+      <p><strong>Total: {cartTotalPrice} &#36;</strong></p>
+    </Modal.Body>
 
-      <Form>
-        {formFields}
-      </Form>
-
-      <Link
-        to={routeLinkToCart}
-        className="btn btn-outline-primary">
-        Back to Cart
-      </Link>
-
-      &nbsp;
-
-      <Button
-        variant="primary"
-        onClick={showStateModal}
-        disabled={!orderIsFormValid}>
-        Apply
+    <Modal.Footer>
+      <Button variant="secondary" onClick={closeStateModal}>
+        Close
       </Button>
 
-      <Modal show={stateModal} backdrop="static">
-        <Modal.Header closeButton onHide={closeStateModal}>
-          <Modal.Title>Check yor products</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p><strong>Total: {cartTotalPrice} &#36;</strong></p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={closeStateModal}>
-            Close
-          </Button>
-          <Button
-            variant="primary"
-            onClick={confirmStateModal}>
-            Confirm
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </div>
-  );
+      <Button variant="primary" onClick={confirmStateModal}>
+        Confirm
+      </Button>
+    </Modal.Footer>
+  </Modal>;
+
+  return <div>
+    <h1>Order</h1>
+
+    <Form>{formFields}</Form>
+
+    <Link to={routeLinkToCart} className="btn btn-outline-primary">Back</Link>
+    &nbsp;
+    <Button variant="primary"
+            onClick={showStateModal}
+            disabled={!orderIsFormValid}>
+      Apply
+    </Button>
+
+    {modalTemplate}
+  </div>
 });

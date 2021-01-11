@@ -10,7 +10,7 @@ export default class{
 
   @computed get itemsDetails(){
 
-    return this.itemsInCart.map((itemInCart) => {
+    return Array.isArray(this.itemsInCart) && this.itemsInCart.map((itemInCart) => {
       let product = this.rootStore.products.getById(itemInCart.id);
 
       return {...product, cnt: itemInCart.cnt};

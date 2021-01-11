@@ -4,19 +4,14 @@ import {routesMap} from '~/routes/routes';
 
 export const Error404 = () => {
   return (
-    <div>
-      <h1>
-        Ooops!
-      </h1>
+    <>
+      <h1>Ooops!</h1>
+
       <div className="alert alert-warning">
         <p>Page not found!</p>
-        <p>
-          Go to &nbsp;
-          <Link to={routesMap.catalog}>
-            home page &rarr;
-          </Link>
-        </p>
+
+        <p>Go to &nbsp; <Link to={routesMap.catalog}>home page &rarr;</Link></p>
       </div>
-    </div>
+    </>
   );
 };

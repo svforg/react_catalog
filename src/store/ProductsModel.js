@@ -1,4 +1,4 @@
-import {observable, computed} from 'mobx';
+import {observable, computed, action} from 'mobx';
 
 //class Products
 export default class{
@@ -11,7 +11,7 @@ export default class{
   @computed get productsMap(){
     let productsMap = {};
 
-    this.products.forEach((product, index) => {
+    Array.isArray(this.products) && this.products.forEach((product, index) => {
       productsMap[product.id.toString()] = index;
     });
 

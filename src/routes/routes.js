@@ -14,7 +14,7 @@ export const routes = [
   },
   {
     name: "catalog",
-    url: "/react_catalog",
+    url: "/",
     component: Catalog,
     exact: true,
   },

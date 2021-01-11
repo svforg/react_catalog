@@ -1,16 +1,16 @@
-import React, {useState, memo} from 'react';
+import React, {useState,} from 'react';
 import {SuperInputText} from '~c/shared/SuperInputText/SuperInputText';
 import css from './ProductCount.module.scss';
-import {pure} from "recompose";
 
-const ProductCount = (
-  {
+const ProductCount = (props) => {
+
+  const {
     min,
     max,
     cnt,
     onChange
-  }
-) => {
+  } = props;
+
   const [editMode, setEditMode] = useState(false);
 
   const editModeOn = () => setEditMode(true);
@@ -35,41 +35,38 @@ const ProductCount = (
   const increase = () => cnt < max && onChange(cnt + 1);
 
   const showInput = (className, onChange, onBlur, value) =>
-    (<SuperInputText
+    <SuperInputText
       className={css.editInput}
       autoFocus
       onChange={onChange}
       onBlur={onBlur}
       value={value}
-    />);
+    />;
+
   const showSpan = (onDoubleClick, className, cnt) =>
-    (<span
+    <span
       onDoubleClick={onDoubleClick}
       className={className}>
       {cnt}
-    </span>);
+    </span>;
 
-  return (
-    <>
-      <button
-        className={css.controlBtn}
-        onClick={decrease}
-        disabled={cnt <= min}>-</button>
+  return <>
+    <button
+      className={css.controlBtn}
+      onClick={decrease}
+      disabled={cnt <= min}>-</button>
 
-      {
-        editMode
+    {
+      editMode
         ? showInput(css.editInput, inputChangeHandler, editModeOff, cnt)
         : showSpan(editModeOn, css.outputSpan, cnt)
-      }
+    }
 
-      <button
-        className={css.controlBtn}
-        onClick={increase}
-        disabled={cnt >= max}>+</button>
-    </>
-  );
+    <button
+      className={css.controlBtn}
+      onClick={increase}
+      disabled={cnt >= max}>+</button>
+  </>
 };
-export default pure(ProductCount);
-//export const ProductCount = React.memo(ProductCountMemo);
-//export default ProductCount;
-//export default memo(ProductCount);
+
+export default ProductCount;
