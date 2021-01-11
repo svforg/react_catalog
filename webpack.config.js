@@ -68,9 +68,9 @@ let conf = {
   },
   devServer: {
     historyApiFallback: true,
+    contentBasePublicPath: '/react_catalog/',
+    openPage: 'react_catalog/',
     contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    port: 8080
   }
 };
 

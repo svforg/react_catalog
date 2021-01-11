@@ -5,8 +5,8 @@ import {Page404} from '~p/Page404/Page404';
 
 @inject('stores') @observer class Result extends React.Component {
   render() {
-    const orderDataName = this.stores.order.getData.name;
-    const cartTotalPrice = this.stores.cart.totalPrice;
+    const orderDataName = this.props.stores.order.getData.name;
+    const cartTotalPrice = this.props.stores.cart.totalPrice;
 
     if (orderDataName === null || cartTotalPrice === null) {
       return <Page404/>

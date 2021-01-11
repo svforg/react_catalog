@@ -8,6 +8,7 @@ import {CatalogView} from '~cp/CatalogView/CatalogView';
     const products = this.props.stores.products.products;
 
     return (
+
       <CatalogView products={products}/>
     );
   };

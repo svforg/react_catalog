@@ -7,7 +7,6 @@ export const CatalogView = observer((
     products
   }
 ) => {
-
   return (
     <div>
       <h1>

@@ -6,8 +6,8 @@ import {ProductView} from '~cp/ProductView/ProductView';
 
 @inject('stores') @observer class Product extends React.Component {
   render() {
-    const productId = this.match.params.id;
-    const product = this.stores.products.getById(productId);
+    const productId = this.props.match.params.id;
+    const product = this.props.stores.products.getById(productId);
     const catalogLink = routesMap.catalog;
 
     if (product === null) {

@@ -14,7 +14,7 @@ export const routes = [
   },
   {
     name: "catalog",
-    url: "/",
+    url: "/react_catalog",
     component: Catalog,
     exact: true,
   },
@@ -41,7 +41,6 @@ export const routes = [
     component: Page404,
   },
 ];
-
 let routesMap = {};
 
 routes.map(

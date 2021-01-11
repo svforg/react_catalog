@@ -15,10 +15,9 @@ const App = observer(() => {
         exact={route.exact}
         component={route.component}/>);
 
-
   return (
     <Provider stores={stores}>
-      <BrowserRouter>
+      <BrowserRouter basename="/react_catalog">
         <div className={css.siteInner}>
           <header className={css.pageHeader}>
             <div className="container">
