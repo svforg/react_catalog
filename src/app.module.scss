@@ -32,6 +32,5 @@
   color: var(--iq-primary);
 }
 .item a.active {
-  color: var(--iq-primary);
-  background-color: var(--iq-dark-primary);
+  border: 1px solid red;
 }

@@ -21,15 +21,15 @@ const App = () => {
           <nav className="container">
             <ul className="nav nav-pills justify-content-center">
               <li className="nav-item">
-                <NavLink to={routesMap.catalog} className="nav-link">Catalog</NavLink>
+                <NavLink className="nav-link" to={routesMap.catalog} exact={true}>Catalog</NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink to={routesMap.cart} className="nav-link">Cart</NavLink>
+                <NavLink className="nav-link" to={routesMap.cart}>Cart</NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink to={routesMap.order} className="nav-link">Order Now</NavLink>
+                <NavLink className="nav-link" to={routesMap.order}>Order Now</NavLink>
               </li>
             </ul>
           </nav>

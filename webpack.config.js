@@ -4,9 +4,9 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 let conf = {
   entry: "./src/main.js",
   output: {
-    path: path.resolve(__dirname, "./dist/"),
+    path: path.resolve(__dirname, "./react_catalog/"),
     filename: "main.js",
-    publicPath: "dist/"
+    publicPath: "react_catalog/"
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -70,7 +70,7 @@ let conf = {
     historyApiFallback: true,
     contentBasePublicPath: '/react_catalog/',
     openPage: 'react_catalog/',
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'react_catalog'),
   }
 };
 
