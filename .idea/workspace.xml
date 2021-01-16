@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d2721b1-1895-4cf0-8be5-628dccea78d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react_catalog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_catalog/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_catalog/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_catalog/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_catalog/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_catalog/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_catalog/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,8 +102,8 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="html" value="7" />
-          <entry key="js" value="128" />
-          <entry key="json" value="6" />
+          <entry key="js" value="129" />
+          <entry key="json" value="7" />
           <entry key="md" value="10" />
           <entry key="scss" value="9" />
           <entry key="tsx" value="4" />
@@ -118,8 +113,8 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="HTML" value="7" />
-          <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="128" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="129" />
           <entry key="Markdown" value="10" />
           <entry key="SCSS" value="9" />
           <entry key="TypeScript JSX" value="4" />
@@ -196,11 +191,29 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.module.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -301,7 +314,6 @@
         <option value="$PROJECT_DIR$/src/components/presentational/ProductPresentation/ProductPresentation.js" />
         <option value="$PROJECT_DIR$/src/pages/ProductContainer/ProductContainer.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/store/rootStore.js" />
         <option value="$PROJECT_DIR$/src/store/OrderModel.js" />
         <option value="$PROJECT_DIR$/src/store/ProductsModel.js" />
@@ -331,6 +343,7 @@
         <option value="$PROJECT_DIR$/src/routes/routes.js" />
         <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/components/shared/ProductCount/ProductCount.module.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -367,37 +380,6 @@
             <path>
               <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_catalog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_catalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductCount" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,12 +446,12 @@
       <workItem from="1610278986597" duration="1739000" />
       <workItem from="1610281046437" duration="4045000" />
       <workItem from="1610338642680" duration="14617000" />
-      <workItem from="1610820849931" duration="2658000" />
+      <workItem from="1610820849931" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130455000" />
+    <option name="totallyTimeSpent" value="130541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1296" height="1010" extended-state="6" />
@@ -529,13 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2976">
           <caret line="2610" column="7" lean-forward="true" selection-start-line="2610" selection-start-column="7" selection-end-line="2610" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -798,25 +773,6 @@
     <entry file="file://$PROJECT_DIR$/dist/react_catalog/main.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#256#329#0" />
-            <element signature="e#287#323#0" />
-            <element signature="e#362#801#0" />
-            <element signature="e#433#793#0" />
-            <element signature="e#488#783#0" />
-            <element signature="e#555#771#0" />
-            <element signature="e#809#953#0" />
-            <element signature="e#870#944#0" />
-            <element signature="e#1414#1707#0" />
-            <element signature="e#1427#1703#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../soc_network/src/components/Main/Sidebar/SidebarItem/SidebarItem.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -883,6 +839,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
